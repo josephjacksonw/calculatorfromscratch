@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Calculator</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1>Calculator</h1>
+  <p>Input 2 numbers and the operation you want to preform!</p>
+  <form id="radio-form">
+    <label for="number1">Input first number</label>
+    <input id="number1" type="number" name="number1">
+    <label for="number2">Input second number</label>
+    <input id="number2" type="number" name="number2">
+    <br>
+    <label>
+      <input type="radio" name="operator" value="add" checked>
+      Add
+    </label><br>
+    <label>
+      <input type="radio" name="operator" value="subtract">
+      Subtract
+    </label><br>
+    <label>
+      <input type="radio" name="operator" value="multiply">
+      Multiply
+    </label><br>
+    <label>
+      <input type="radio" name="operator" value="divide">
+      Divide
+    </label><br>
+    <button type="submit">Submit Selection</button>
+  </form>
+
+  <h2><strong>Result!</strong></h2>
+  <p id="result"></p>
+</body>
+</html>
